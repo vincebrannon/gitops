@@ -1,0 +1,15 @@
+---
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: redis
+  namespace: fleet-default
+spec:
+  repo: https://github.com/zaggash/test-fleet.git
+  branch: main
+  paths:
+    - redis
+  clientSecretName: basic-auth-secret
+  targets:
+    - name: rke-custom
+      clusterName: c-5rprr

@@ -1,0 +1,15 @@
+---
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: rancher-local-storage
+  namespace: fleet-default
+spec:
+  repo: https://github.com/zaggash/test-fleet.git
+  branch: main
+  paths:
+    - local-storage
+  clientSecretName: basic-auth-secret
+  targets:
+    - name: all
+      clusterSelector: {}

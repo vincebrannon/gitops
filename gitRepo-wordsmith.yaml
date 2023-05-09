@@ -1,0 +1,15 @@
+---
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: wordmisth
+  namespace: fleet-default
+spec:
+  repo: https://github.com/zaggash/test-fleet.git
+  branch: main
+  paths:
+    - wordsmith
+  clientSecretName: basic-auth-secret
+  targets:
+    - name: rke2
+      clusterName: rke2
