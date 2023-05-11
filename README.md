@@ -1,4 +1,8 @@
 ## **Fleet demo exercise**
+>Source repos:  
+>https://github.com/zaggash/test-fleet-gitrepo  
+>https://github.com/zaggash/test-fleet  
+
 
 The goal of this demo is to deploy differant apps in downstream clusters from a single initial gitRepo.  
 In this example, I deployed a [Redis app](https://artifacthub.io/packages/helm/bitnami/redis) and a [WordSmish app](https://github.com/dockersamples/wordsmith).  
