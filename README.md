@@ -4,7 +4,7 @@
 >https://github.com/zaggash/test-fleet  
 
 
-The goal of this demo is to deploy differant apps in downstream clusters from a single initial gitRepo.  
+The goal of this demo is to deploy different apps in downstream clusters from a single initial gitRepo.  
 In this example, I deployed a [Redis app](https://artifacthub.io/packages/helm/bitnami/redis) and a [WordSmish app](https://github.com/dockersamples/wordsmith).  
 I also used the [SUSE Rancher local-path-provisionner](https://github.com/rancher/local-path-provisioner) for PVC to avoid deploying Longhorn in the demo.
 
@@ -13,7 +13,7 @@ So in basics steps, here what you could do to achieve the same:
 
 * Create a local cluster with 2 downstreams.
 * Prepare 2 GIT repositories.
-  * one called gitops repo to deploy the differant *gitRepo*
+  * one called gitops repo to deploy the different *gitRepo*
   * one called fleet-apps for the *fleet.yaml* applications source, you can off course use one GIT repository per application as well.  Here I used the same one and filter the apps with the ***path*** *key/values*
 
 * In the gitops GIT repository, you define the applications gitRepo[s] and filter the cluster(s) target(s)
