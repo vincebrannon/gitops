@@ -5,7 +5,7 @@
 
 
 The goal of this demo is to deploy different apps in downstream clusters from a single initial gitRepo.  
-In this example, I deployed a [Redis app](https://artifacthub.io/packages/helm/bitnami/redis) and a [WordSmish app](https://github.com/dockersamples/wordsmith).  
+In this example, I deployed a [Redis app](https://artifacthub.io/packages/helm/bitnami/redis) and the [WordSmith app](https://github.com/dockersamples/wordsmith).  
 I also used the [SUSE Rancher local-path-provisionner](https://github.com/rancher/local-path-provisioner) for PVC to avoid deploying Longhorn in the demo.
 
 
