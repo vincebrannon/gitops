@@ -5,7 +5,7 @@ metadata:
   name: rancher-local-storage
   namespace: fleet-default
 spec:
-  repo: https://github.com/zaggash/test-fleet.git
+  repo: https://https://github.com/vincebrannon/fleet.git
   branch: main
   paths:
     - local-storage
